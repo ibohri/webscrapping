@@ -31,7 +31,7 @@ async function getData(search) {
         // to variable spawn 
         const spawn = require("child_process").spawn;
 
-        const process = spawn('python', ["./script.py",
+        const process = spawn('python', [__dirname + "/script.py",
             search]);
 
         // Takes stdout data from script which executed 
