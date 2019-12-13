@@ -19,7 +19,7 @@
         $("#download").click(function () {
             var search = $("#search").val();
             if (search) {
-                window.open("http://localhost:5000/data?search=" + search);
+                window.open(window.location.origin + "/data?search=" + search);
             }
         })
     })
