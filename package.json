@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.2"
+    "jsdom": "^16.0.0",
+    "nodemon": "^2.0.2",
+    "request-promise": "^4.2.5"
   }
 }
